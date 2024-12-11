@@ -38,53 +38,50 @@ Der NaturZoo Rheine plant, sein bestehendes Karteikartensystem für die Verwaltu
 
 2. Zielsetzung
 
-Digitalisierung der Tier-, Pfleger- und Futterverwaltung mit einer relationalen MySQL-Datenbank.
+ - Digitalisierung der Tier-, Pfleger- und Futterverwaltung mit einer relationalen MySQL-Datenbank.
 
-Bereitstellung einer benutzerfreundlichen Weboberfläche für die Verwaltung, Pfleger und Besucher.
+ -Bereitstellung einer benutzerfreundlichen Weboberfläche für die Verwaltung, Pfleger und Besucher.
 
-Sicherstellung von Datenschutz und Fehlertoleranz.
+ -Sicherstellung von Datenschutz und Fehlertoleranz.
 
-Protokollierung aller Vorgänge und Einhaltung ergonomischer Prinzipien.
+ -Protokollierung aller Vorgänge und Einhaltung ergonomischer Prinzipien.
 
 3. Anforderungen
 
-Funktionale Anforderungen
 
-Verwaltung: Eingabe und Bearbeitung von Tier-, Pfleger- und Futterdaten sowie Erstellung eines wöchentlichen Futterplans.
+ -Verwaltung: Eingabe und Bearbeitung von Tier-, Pfleger- und Futterdaten sowie Erstellung eines wöchentlichen Futterplans.
 
-Pfleger: Zugriff auf spezifische Futterpläne und Tierinformationen.
+ -Pfleger: Zugriff auf spezifische Futterpläne und Tierinformationen.
 
-Besucher: Einsicht in öffentlich zugängliche Informationen (z. B. Fütterungszeiten).
+ -Besucher: Einsicht in öffentlich zugängliche Informationen (z. B. Fütterungszeiten).
 
-Nicht-funktionale Anforderungen
+ -Benutzerfreundlichkeit: Intuitive und einheitliche Oberfläche.
 
-Benutzerfreundlichkeit: Intuitive und einheitliche Oberfläche.
+ -Fehlertoleranz: Abfangen von Fehleingaben ohne Systemabstürze.
 
-Fehlertoleranz: Abfangen von Fehleingaben ohne Systemabstürze.
-
-Plattformunabhängigkeit: Lauffähig auf aktuellen Rechnern und Browsern.
+ -Plattformunabhängigkeit: Lauffähig auf aktuellen Rechnern und Browsern.
 
 4. Systemübersicht
 
 Datenbankdesign
 
-Die relationale MySQL-Datenbank enthält folgende Tabellen:
+ -Die relationale MySQL-Datenbank enthält folgende Tabellen:
 
-Tiere: Art, Name, Geschlecht, Geburtsdatum, Todes-/Abgabedatum.
+ -Tiere: Art, Name, Geschlecht, Geburtsdatum, Todes-/Abgabedatum.
 
-Pfleger: Name, Adresse, Telefon, Geburtsdatum.
+ -Pfleger: Name, Adresse, Telefon, Geburtsdatum.
 
-Futter: Art, Lieferant, Menge, Lieferzeitplan.
+ -Futter: Art, Lieferant, Menge, Lieferzeitplan.
 
-Reviere: Zuordnung von Tieren und Pflegern.
+ -Reviere: Zuordnung von Tieren und Pflegern.
 
 Weboberfläche
 
-Verwaltungsbereich: Eingabe- und Bearbeitungsmasken.
+ -Verwaltungsbereich: Eingabe- und Bearbeitungsmasken.
 
-Pflegerbereich: Anzeige der relevanten Daten.
+ -Pflegerbereich: Anzeige der relevanten Daten.
 
-Besucherbereich: Öffentliche Informationen über Tiere und Fütterungszeiten.
+ -Besucherbereich: Öffentliche Informationen über Tiere und Fütterungszeiten.
 
 5. Projektplanung
 
@@ -92,30 +89,30 @@ Projektphasen
 
 Analysephase:
 
-Anforderungen validieren und dokumentieren.
+ -Anforderungen validieren und dokumentieren.
 
-Erstellung eines ER-Diagramms.
+ -Erstellung eines ER-Diagramms.
 
 Entwurfsphase:
 
-Datenbankstruktur entwerfen.
+ -Datenbankstruktur entwerfen.
 
-Programmablaufplan und Maskendesign erstellen.
+ -Programmablaufplan und Maskendesign erstellen.
 
 Implementierungsphase:
 
-Entwicklung der MySQL-Datenbank.
+ -Entwicklung der MySQL-Datenbank.
 
-Implementierung der Webanwendung.
+ -Implementierung der Webanwendung.
 
 Testphase:
 
-Unit- und Integrationstests.
+ -Unit- und Integrationstests.
 
-Benutzerakzeptanztests (UAT).
+ -Benutzerakzeptanztests (UAT).
 
 Einführungsphase:
 
-Schulung der Mitarbeiter.
+ -Schulung der Mitarbeiter.
 
-Deployment der Anwendung.
+ -Deployment der Anwendung.
