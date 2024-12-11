@@ -1,5 +1,5 @@
-## Naturzoo-Rheine
-# Programmablaufplan
+# Naturzoo-Rheine
+## Programmablaufplan
 1. Programmstart
 2. Initialisierung des Systems
    - Verbindung zur MySQL-Datenbank herstellen
